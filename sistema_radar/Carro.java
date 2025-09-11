@@ -1,8 +1,8 @@
 
 public class Carro {
      public String placa;
-     private String modelo;
-     private Integer ano;
+     public String modelo;
+     public Integer ano;
      private Integer velocidade;
 
      public Carro(String placa, String modelo, Integer ano, Integer velocidade){
